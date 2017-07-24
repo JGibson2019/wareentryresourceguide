@@ -1,0 +1,40 @@
+{
+  "name": "re-entry-guide",
+  "version": "0.1.0",
+  "dependencies": {
+    "@types/react": "15.0.38",
+    "@types/react-dom": "15.5.1",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-bootstrap": "0.31.1",
+    "@types/react-bootstrap":"0.0.52",
+    "bootstrap":"3.3.7"
+  },
+  "devDependencies": {
+    "webpack": "3.3.0",
+    "@types/webpack":"3.0.4",
+    "webpack-dev-server": "2.5.0",
+    "ts-loader": "2.3.1",
+    "tslint-loader": "3.5.3",
+    "source-map-loader": "0.2.1",
+    "style-loader": "0.18.2",
+    "css-loader": "0.28.4",
+    "file-loader": "0.11.2",
+    "typescript": "2.4.2",
+    "tslint": "5.5.0",
+    "tslint-react": "3.0.0",
+    "ts-node": "3.2.1",
+    "html-webpack-plugin": "2.29.0",
+    "@types/html-webpack-plugin": "2.28.0",
+    "html-webpack-template": "5.6.0",
+    "@types/html-webpack-template": "6.0.1",
+    "webpack-merge": "4.1.0",
+    "@types/webpack-merge":"0.0.4"
+  },
+  "scripts": {
+    "buildDev": "webpack --config webpack.dev.config.ts",
+    "startDev": "webpack-dev-server --config webpack.dev.config.ts --open",
+    "buildProd": "webpack -p --config webpack.prod.config.ts",
+    "startProd": "webpack-dev-server -p --config webpack.prod.config.ts --open"
+  }
+}
